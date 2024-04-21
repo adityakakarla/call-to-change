@@ -1,8 +1,0 @@
-README.md
-setup.py
-llm_offset/__init__.py
-llm_offset/main.py
-llm_offset.egg-info/PKG-INFO
-llm_offset.egg-info/SOURCES.txt
-llm_offset.egg-info/dependency_links.txt
-llm_offset.egg-info/top_level.txt
