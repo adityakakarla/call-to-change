@@ -43,4 +43,4 @@ For instance, let's say you generate text (for reference, view the code block in
 
 ## Do You Support Other Gen AI Tools?
 
-Sadly, no. I built this tool as part of a hackathon and need to spend some time updating it. Maybe in the future?
+Unfortunately, no. I built this tool as part of a hackathon and need to spend some time updating it. Maybe in the future?
