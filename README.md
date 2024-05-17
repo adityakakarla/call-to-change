@@ -1,4 +1,4 @@
-call_to_change is a Python library that works with our web app (CallToChange) to help you offset CO2 emissions created from LLM calls.
+call_to_change is a Python library that works with our web app (CallToChange) to help you offset CO2 emissions created from LLM calls. This project won 1st place at LA Hacks in the sustainability track.
 
 ## How To Use
 
