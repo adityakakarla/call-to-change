@@ -8,14 +8,6 @@ This project won first place in the environmental track at LA Hacks (hundreds of
 
 ---
 
-## What it does
-
-CallToChange seamlessly integrates with our custom Python library (call-to-change) to log LLM call emissions. It utilizes academic research and information from the Department of Energy to accurately determine the carbon footprint of each LLM call.
-
-Our visually engaging dashboards provide clear insights into emissions data, aiding companies in making informed decisions to addresss their environmental impact.
-
----
-
 This repo is for call-to-change, the Python library that works with our web app to log LLM calls.
 
 ---
