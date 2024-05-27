@@ -8,7 +8,7 @@ This project won first place in the environmental track at LA Hacks (hundreds of
 
 ---
 
-This repo is for call-to-change, the Python library that works with our web app to log LLM calls with a single line of code.
+This repo is for call-to-change, a Python library that logs LLM calls with a single line of code.
 
 ---
 
