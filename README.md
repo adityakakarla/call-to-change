@@ -24,7 +24,7 @@ This repo is for call-to-change, the Python library that works with our web app 
 
 Use the command pip install call-to-change to download our library. Ensure the downloaded version is >= 0.8.6.
 
-Here is a sample script utilizing call-to-change.
+Here is a sample script utilizing call-to-change:
 
 ~~~
 from openai import OpenAI
