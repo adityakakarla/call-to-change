@@ -43,7 +43,7 @@ response = client.chat.completions.create(
 print(response.choices[0].message.content)
 ~~~
 ---
-## How To Use The Log Function
+## How to use the log function
 
 The log function takes in two parameters, an OpenAI client and an email address.
 
