@@ -55,5 +55,7 @@ If not, your text generation and image generation calls will still be saved. To 
 
 ## How it works
 
-Our Python library logs LLM calls in MongoDB. Under the hood, it does this by sending a POST request to API routes in our web app. These API routes securely handle data updates in MongoDB.
+Our Python library logs LLM calls in MongoDB.
+
+Under the hood, it does this by sending a POST request to API routes in our web app. These API routes securely handle data updates in MongoDB.
 
