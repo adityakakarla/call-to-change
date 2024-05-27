@@ -40,7 +40,3 @@ If not, your text generation and image generation calls will still be saved. To 
 It modifies the OpenAI client to log the calls you make.
 
 For instance, let's say you generate text (for reference, view the code block in the "How To Use" section). The modified client will still generate text normally. However, it will also send a POST request to our web app. Our API routes work with our database to increment the number of LLM calls you have made.
-
-## Do You Support Other Gen AI Tools?
-
-Unfortunately, no. I built this tool as part of a hackathon and need to spend some time updating it. Maybe in the future?
