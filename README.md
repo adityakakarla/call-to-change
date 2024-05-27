@@ -8,7 +8,7 @@ This project won first place in the environmental track at LA Hacks (hundreds of
 
 ---
 
-This repo is for call-to-change, the Python library that works with our web app to log LLM calls.
+This repo is for call-to-change, the Python library that works with our web app to log LLM calls with a single line of code.
 
 ---
 
@@ -43,7 +43,7 @@ The log function takes in two parameters, an OpenAI client and an email address.
 
 It modifies the client to log any text generation or image generation calls you made. These calls will be tied to the email address you input into the log function.
 
-If you have an account with _[our web app](https://calltochange.vercel.app)_, your logged calls can be seen through your dashboard. From there, you can view the carbon emissions tied to your OpenAI calls and the cost to offset these emissions.
+If you have an account with _[our web app](https://calltochange.vercel.app)_, your logged calls can be seen through your dashboard. From there, you can view the carbon emissions tied to your OpenAI calls and the offset cost.
 
 If not, your text generation and image generation calls will still be saved. To access your data, create an account with us _[here](https://calltochange.vercel.app/auth/sign-up)_ and go to the Dashboard page.
 
