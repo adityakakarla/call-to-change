@@ -43,6 +43,10 @@ The log function takes in two parameters, an OpenAI client and an email address.
 
 It modifies the client to log any text generation or image generation calls you made. These calls will be tied to the email address you input into the log function.
 
+---
+
+## How to access logs
+
 If you have an account with _[our web app](https://calltochange.vercel.app)_, your logged calls can be seen through your dashboard. From there, you can view the carbon emissions tied to your OpenAI calls and the offset cost.
 
 If not, your text generation and image generation calls will still be saved. To access your data, create an account with us _[here](https://calltochange.vercel.app/auth/sign-up)_ and go to the Dashboard page.
@@ -52,6 +56,4 @@ If not, your text generation and image generation calls will still be saved. To 
 ## How it works
 
 Our Python library logs LLM calls in MongoDB. Under the hood, it does this by sending a POST request to API routes in our web app. These API routes securely handle data updates in MongoDB.
-
-In our web app, we use Next.js and MongoDB to fetch user information (such as the number of times a user has used text generation). To create an interactive interface, we utilized Tailwind CSS. For user authentication, we used Clerk to manage user accounts.
 
