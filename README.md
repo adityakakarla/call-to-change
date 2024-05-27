@@ -14,17 +14,7 @@ CallToChange seamlessly integrates with our custom Python library (call-to-chang
 
 ---
 
-## How we built it
-
-We developed CallToChange using Next.js and Python.
-
-Our Python library logs LLM calls in MongoDB. Under the hood, our library does this by sending a POST request to API routes in our web app. These API routes securely handle data updates in MongoDB.
-
-In our web app, we use Next.js and MongoDB to fetch user information (such as the number of times a user has used text generation). To create an interactive interface, we utilized Tailwind CSS. For user authentication, we used Clerk to manage user accounts.
-
----
-
-This repo is for call-to-change, a Python library that works with our web app to log LLM calls.
+This repo is for call-to-change, the Python library that works with our web app to log LLM calls.
 
 ---
 
@@ -65,9 +55,11 @@ If not, your text generation and image generation calls will still be saved. To 
 
 ---
 
-## How Does The Log Function Work?
+## Under the hood
 
-It modifies the OpenAI client to log the calls you make.
+We developed CallToChange using Next.js and Python.
 
-For instance, let's say you generate text (for reference, view the code block in the "How To Use" section). The modified client will still generate text normally. However, it will also send a POST request to our web app. Our API routes work with our database to increment the number of LLM calls you have made.
+Our Python library logs LLM calls in MongoDB. Under the hood, our library does this by sending a POST request to API routes in our web app. These API routes securely handle data updates in MongoDB.
+
+In our web app, we use Next.js and MongoDB to fetch user information (such as the number of times a user has used text generation). To create an interactive interface, we utilized Tailwind CSS. For user authentication, we used Clerk to manage user accounts.
 
