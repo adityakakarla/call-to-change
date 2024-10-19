@@ -4,7 +4,7 @@ import requests
 def llm_offset_decorator_for_text(email):
     def decorator(func):
         def wrapper(*args, **kwargs):
-            url = f'https://calltochange.vercel.app/api/text?email={email}'
+            url = f'https://calltochange-theta.vercel.app/api/text?email={email}'
             try:
                 response = requests.post(url)
                 response.raise_for_status()  # This will handle HTTP errors.
@@ -22,7 +22,7 @@ def llm_offset_decorator_for_text(email):
 def llm_offset_decorator_for_image(email):
     def decorator(func):
         def wrapper(*args, **kwargs):
-            url = f'https://calltochange.vercel.app/api/image?email={email}'
+            url = f'https://calltochange-theta.vercel.app/api/image?email={email}'
             try:
                 response = requests.post(url)
                 response.raise_for_status()  # This will handle HTTP errors.
