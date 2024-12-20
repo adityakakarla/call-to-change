@@ -1,4 +1,4 @@
-# [CallToChange](https://calltochange.vercel.app/) 🌍
+# [CallToChange](https://calltochange-theta.vercel.app/) 🌍
 
 ## Description
 
@@ -47,9 +47,9 @@ It modifies the client to log any text generation or image generation calls you 
 
 ## How to access logs
 
-If you have an account with _[our web app](https://calltochange.vercel.app)_, your logged calls can be seen through your dashboard. From there, you can view the carbon emissions tied to your OpenAI calls and the offset cost.
+If you have an account with _[our web app](https://calltochange-theta.vercel.app)_, your logged calls can be seen through your dashboard. From there, you can view the carbon emissions tied to your OpenAI calls and the offset cost.
 
-If not, your text generation and image generation calls will still be saved. To access your data, create an account with us _[here](https://calltochange.vercel.app/auth/sign-up)_ and go to the Dashboard page.
+If not, your text generation and image generation calls will still be saved. To access your data, create an account with us [here](https://calltochange-theta.vercel.app/sign-up) and go to the Dashboard page.
 
 ---
 
